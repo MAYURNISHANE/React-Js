@@ -1,0 +1,105 @@
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .inner-footer {
+    background-color: black;
+    height: 525px;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .footer-logo {
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+  }
+  .logo {
+    background-color: yellowgreen;
+    width: 300px;
+    height: 90px;
+  }
+  
+  .footer-section {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .footer-left_section {
+    width: 55%;
+  }
+  
+  
+  .footer-left_text {
+    font-size: 17px;
+    font-family: Montserrat-Regular;
+  }
+  
+  
+  
+  .footer-copyright {
+    position: absolute;
+    bottom: 28px;
+    font-size: 17px;
+    font-family: BebasNeue;
+  }
+  
+  .footer-right_section {
+    width: 45%;
+    margin-top: 10px;
+  }
+  .footer-mail-location_section {
+    position: absolute;
+    right: 140px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-location_section {
+    margin-bottom: 13px;
+  }
+  
+  .footer-location_icon,
+  .footer-mail_icon {
+    font-size: 35px;
+    vertical-align: sub;
+  
+  }
+  .footer-mail_icon {
+    font-size: 29px;
+  }
+  
+  .footer-icon_text {
+    font-family: BebasNeue;
+    font-size: 21px;
+    padding-left: 35px;
+  }
+  
+  .footer-icon {
+    position: absolute;
+    bottom: 28px;
+    right: 40px;
+  
+  
+  }
+  
+  .footer-social_icon {
+    margin-left: 12px;
+    border: 1px solid;
+    border-radius: 100%;
+    font-size: 16px;
+    padding: 4px 6px;
+    color: black;
+    background-color: white;
+  }
+  
+  .footer-facebook {
+    padding: 4px 8px;
+  }
