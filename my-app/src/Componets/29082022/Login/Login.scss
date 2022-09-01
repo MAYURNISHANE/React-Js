@@ -1,0 +1,21 @@
+.App {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: hsla(336, 20%, 95%, 0.705);
+    box-shadow: 0px 0px 15px 8px #999;
+    position: relative;
+   
+}
+button {
+    background: linear-gradient(white 0 0) padding-box, linear-gradient(to right, #fb3570, #9c20aa) border-box;
+    padding: 7px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.btns {
+position: absolute;
+right: 20px;
+}
