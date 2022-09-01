@@ -1,13 +1,14 @@
 import React from "react";
+import Text from "../Login/Main/Text";
 import Input from "../Login/Main/input";
 import Btn from "../Login/Main/btn";
 import './Register.scss';
 const Register = (props) => {
     return (
         <div className="reg">
-            <h2>Register</h2>
-            <p>Welcome back! Please enter your details.</p>
-
+            <Text h2="Register"
+                p="Please enter your details."
+            />
             <Input
                 type="text"
                 placeholder="Enter Your Name"
@@ -29,7 +30,7 @@ const Register = (props) => {
             />
 
             <Btn
-            lable="Register" />
+                lable="Register" />
 
         </div>
     );
