@@ -9,7 +9,7 @@ const Footer =(props)=> {
     </div>
     <div className="footer-left">
         <a href="#">Term & Condition</a>
-        <a href="#">Privacy Policy</a>
+        <a className="policy-margin" href="#">Privacy Policy</a>
     </div>
     </div> 
     

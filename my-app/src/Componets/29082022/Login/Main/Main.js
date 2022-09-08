@@ -4,6 +4,7 @@ import Input from "./input";
 import Btn from "./btn";
 import './Main.scss';
 const Main = (props) => {
+    const change =() => {alert("forgot passward")}
     return (
         <div>
             <div className="Main">
@@ -20,7 +21,7 @@ const Main = (props) => {
                 type="password"
                 placeholder="Password"
             />
-            <div className="forgot-pass">Forgot Password?</div>
+            <div className="forgot-pass" onClick={change}>Forgot Password?</div>
             <Btn
                 lable="LOGIN" />
 
